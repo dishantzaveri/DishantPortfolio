@@ -23,7 +23,7 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hi all, I'm Dishant",
   subTitle: emoji(
-    "Welcome! My name is Dishant and I am a React Native and Flutter Dev , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 As a location independent Developer, I am working with customers all over the globe. 🌎"),
+    "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 As a location independent Developer, I am working with customers all over the globe. 🌎"),
   resumeLink:
     "https://drive.google.com/file/d/1cBKfT9SmEtzYc6riY87Wt7TCMWKbCiDn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -42,6 +42,7 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/dishant_zaveri/",
   kaggle: "https://www.kaggle.com/dishantzaveri",
   twitter: "https://twitter.com/DishantZaveri",
+  youtube: "https://www.youtube.com/channel/UCCZUOvkx1UzZTw9o9nlzo4Q",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -75,9 +76,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
+    // {
+    //   skillName: "Flutter",
+    //   fontAwesomeClassname: "fab fa-flutter"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -90,10 +95,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -159,8 +164,16 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Frontend",
+      Stack: "Machine Learning",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Flutter",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
@@ -339,10 +352,16 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Microsoft Imagine Cup Nomination",
+      subtitle: "Team Uddharaka solving the problem of locusts at Microsoft Imagine cup.",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.youtube.com/watch?v=lS5vYpOED4g"
+    },
+    {
+      title: "Microsoft Ambassador Program",
+      subtitle: "Application for Microsoft Ambassador Program.",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.youtube.com/watch?v=i4AQXg4RO8Q"
     }
   ],
   display: true // Set false to hide this section, defaults to true

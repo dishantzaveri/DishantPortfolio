@@ -189,30 +189,55 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Android + Ios App Developer",
+      company: "Jobs Territory",
+      companylogo: require("./assets/images/jobst.jpg"),
+      date: "July 2022 - September 2022",
+      desc: "Build a Job Marketing App from scratch with optimum code.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android + Ios App Developer",
+      company: "Trueno",
+      companylogo: require("./assets/images/trueno.jpg"),
+      date: "April 2022 - June 2022",
+      desc: "Build a Mechanics App from scratch and debug the deployed Customer App."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Android + Ios App Developer",
+      company: "Orinova",
+      companylogo: require("./assets/images/oriniva.png"),
+      date: "March 2022 - May 2022",
+      desc: "Debug and improve the play store Folktel App."
+    },
+    {
+      role: "Research Intern",
+      company: "Sapio Analytics",
+      companylogo: require("./assets/images/sapio.png"),
+      date: "Jan 2022 - March 2022",
+      desc: "Research paper published . Associate project manager of the entire project."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "JP Morgan External Engagement Program",
+      company: "JP Morgan",
+      companylogo: require("./assets/images/jpmc.png"),
+      date: "April 2022 - June 2022",
+      desc: "A crashcourse with various tech stack lectures and a prohject phase at the end."
+    },
+    // {
+    //   role: "Android + Ios App Developer",
+    //   company: "Orinova",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "March 2022 - May 2022",
+    //   desc: "Debug and improve the play store Folktel App."
+    // }
   ]
 };
 
@@ -236,7 +261,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
@@ -248,7 +273,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project",
           url: "http://nextu.se/"
         }
       ]

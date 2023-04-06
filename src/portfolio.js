@@ -224,17 +224,14 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
+    {
+      role: "JP Morgan External Engagement Program",
+      company: "JP Morgan",
+      companylogo: require("./assets/images/jpmc.png"),
+      date: "January 2022 - January 2023",
+      desc: "A crashcourse with various tech stack lectures and a prohject phase at the end."
+    },
      {
-      role: "Co-Chairperson",
-      company: "DJS Synapse",
-      companylogo: require("./assets/images/synapse.jpg"),
-      date: "August 2022 - Present",
-      desc: "Research paper published . Associate project manager of the entire project."
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    }, {
       role: "Co-Chairperson",
       company: "DJS Synapse",
       companylogo: require("./assets/images/synapse.jpg"),
@@ -268,7 +265,7 @@ const workExperiences = {
       // ]
     },
     {
-      role: "Flutter App Developer",
+      role: "Flutter Developer",
       company: "DJSCE ACM",
       companylogo: require("./assets/images/acm.jpg"),
       date: "October 2021 - October 2022",
@@ -278,13 +275,7 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    {
-      role: "JP Morgan External Engagement Program",
-      company: "JP Morgan",
-      companylogo: require("./assets/images/jpmc.png"),
-      date: "January 2022 - January 2023",
-      desc: "A crashcourse with various tech stack lectures and a prohject phase at the end."
-    },
+
     // {
     //   role: "Android + Ios App Developer",
     //   company: "Orinova",

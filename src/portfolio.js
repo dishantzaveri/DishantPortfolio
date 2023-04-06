@@ -189,7 +189,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Android + Ios App Developer",
+      role: "App Developer",
       company: "Jobs Territory",
       companylogo: require("./assets/images/jobst.jpg"),
       date: "July 2022 - September 2022",
@@ -200,14 +200,14 @@ const workExperiences = {
       // ]
     },
     {
-      role: "Android + Ios App Developer",
+      role: "App Developer",
       company: "Trueno",
       companylogo: require("./assets/images/trueno.jpg"),
       date: "April 2022 - June 2022",
       desc: "Build a Mechanics App from scratch and debug the deployed Customer App."
     },
     {
-      role: "Android + Ios App Developer",
+      role: "App Developer",
       company: "Orinova",
       companylogo: require("./assets/images/oriniva.png"),
       date: "March 2022 - May 2022",
@@ -225,17 +225,17 @@ const workExperiences = {
       // ]
     },
     {
-      role: "JP Morgan External Engagement Program",
+      role: "JPMC External Engagement Program",
       company: "JP Morgan",
       companylogo: require("./assets/images/jpmc.png"),
-      date: "January 2022 - January 2023",
+      date: "Jan 2022 - Jan 2023",
       desc: "A crashcourse with various tech stack lectures and a prohject phase at the end."
     },
      {
       role: "Co-Chairperson",
       company: "DJS Synapse",
       companylogo: require("./assets/images/synapse.jpg"),
-      date: "August 2022 - Present",
+      date: "Aug 2022 - Present",
       desc: "Managing the entire club adn its events . Wrote to research papers in my second year under this club"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -246,7 +246,7 @@ const workExperiences = {
       role: "React Native Mentor",
       company: "DJ Unicode",
       companylogo: require("./assets/images/unicode.jpg"),
-      date: "August 2021 - Present",
+      date: "Aug 2021 - Present",
       desc: "Learnt React Native from my mentors in my second year and became a mentor later thus following the tradition."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -257,7 +257,7 @@ const workExperiences = {
       role: "Publicity Department",
       company: "DJ Codestars",
       companylogo: require("./assets/images/codestars.jpg"),
-      date: "September 2021 - September 2022",
+      date: "Sept 2021 - Sept 2022",
       desc: "Helped in getting a good reach at competitive coding events of the club. Became familiar with the non-tech side."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -268,7 +268,7 @@ const workExperiences = {
       role: "Flutter Developer",
       company: "DJSCE ACM",
       companylogo: require("./assets/images/acm.jpg"),
-      date: "October 2021 - October 2022",
+      date: "Oct 2021 - Oct 2022",
       desc: "Deployed an android app for the committee on playstore and participated in events."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",

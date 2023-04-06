@@ -80,17 +80,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.youtube ? (
-        <a
-          href={socialMediaLinks.youtube}
-          className="icon-button youtube"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-youtube-square"></i>
-          <span></span>
-        </a>
-      ) : null}
+
 
       {socialMediaLinks.twitter ? (
         <a
@@ -136,6 +126,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+{socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube-square"></i>
           <span></span>
         </a>
       ) : null}

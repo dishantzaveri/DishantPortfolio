@@ -234,6 +234,38 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
+    }, {
+      role: "Co-Chairperson",
+      company: "DJS Synapse",
+      companylogo: require("./assets/images/synapse.jpg"),
+      date: "August 2022 - Present",
+      desc: "Managing the entire club adn its events . Wrote to research papers in my second year under this club"
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "React Native Mentor",
+      company: "DJ Unicode",
+      companylogo: require("./assets/images/unicode.jpg"),
+      date: "August 2022 - Present",
+      desc: "Learnt React Native from my mentors in my second year and became a mentor later thus following the tradition."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "Flutter App Developer",
+      company: "DJSCE ACM",
+      companylogo: require("./assets/images/acm.jpg"),
+      date: "October 2021 - October 2022",
+      desc: "Deployed an android app for the committee on playstore and participated in events."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       role: "JP Morgan External Engagement Program",

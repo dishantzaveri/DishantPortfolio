@@ -253,17 +253,17 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    {
-      role: "Publicity Department",
-      company: "DJ Codestars",
-      companylogo: require("./assets/images/codestars.jpg"),
-      date: "Sept 2021 - Sept 2022",
-      desc: "Helped in getting a good reach at competitive coding events of the club. Became familiar with the non-tech side."
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    },
+    // {
+    //   role: "Publicity Department",
+    //   company: "DJ Codestars",
+    //   companylogo: require("./assets/images/codestars.jpg"),
+    //   date: "Sept 2021 - Sept 2022",
+    //   desc: "Helped in getting a good reach at competitive coding events of the club. Became familiar with the non-tech side."
+    //   // descBullets: [
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   // ]
+    // },
     {
       role: "Flutter Developer",
       company: "DJSCE ACM",

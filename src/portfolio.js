@@ -224,11 +224,22 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
+     {
+      role: "Co-Chairperson",
+      company: "DJS Synapse",
+      companylogo: require("./assets/images/synapse.jpg"),
+      date: "August 2022 - Present",
+      desc: "Research paper published . Associate project manager of the entire project."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
     {
       role: "JP Morgan External Engagement Program",
       company: "JP Morgan",
       companylogo: require("./assets/images/jpmc.png"),
-      date: "April 2022 - June 2022",
+      date: "January 2022 - January 2023",
       desc: "A crashcourse with various tech stack lectures and a prohject phase at the end."
     },
     // {

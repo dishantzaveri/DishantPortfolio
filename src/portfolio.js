@@ -249,8 +249,19 @@ const workExperiences = {
       role: "React Native Mentor",
       company: "DJ Unicode",
       companylogo: require("./assets/images/unicode.jpg"),
-      date: "August 2022 - Present",
+      date: "August 2021 - Present",
       desc: "Learnt React Native from my mentors in my second year and became a mentor later thus following the tradition."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "Publicity Department",
+      company: "DJ Codestars",
+      companylogo: require("./assets/images/codestars.jpg"),
+      date: "September 2021 - September 2022",
+      desc: "Helped in getting a good reach at competitive coding events of the club. Became familiar with the non-tech side."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"

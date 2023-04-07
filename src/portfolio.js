@@ -23,7 +23,7 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hi all, I'm Dishant",
   subTitle: emoji(
-    "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 As a location independent Developer, I am working with customers all over the globe. 🌎"),
+    "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 I have a deep interest in Machine Learning and Artificial Intelligence 🌎"),
   resumeLink:
     "https://drive.google.com/file/d/1cBKfT9SmEtzYc6riY87Wt7TCMWKbCiDn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -297,29 +297,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Research Papers Published",
+  subtitle: "Google Scholar Profile",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Estimating GeoJSON Coordinates using Image Processing to Improve Census Credibility2",
+      projectDesc: "2022 Smart Technologies, Communication and Robotics (STCR)",
       footerLink: [
         {
-          name: "Visit Project",
-          url: "http://saayahealth.com/"
+          name: "Visit Paper",
+          url: "https://ieeexplore.ieee.org/abstract/document/10009508"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Aero Drums-Augmented Virtual Drums",
+      projectDesc: "2022 IEEE 4th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)",
       footerLink: [
         {
-          name: "Visit Project",
-          url: "http://nextu.se/"
+          name: "Visit Paper",
+          url: "https://ieeexplore.ieee.org/abstract/document/9989074"
         }
       ]
     }
@@ -333,11 +333,11 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Hackathons and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Smart India Hackathon 2022 Winner",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -348,31 +348,31 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
+          name: "Event photo",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Finalist UNESCO India Africa Hackathon '22.",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
       ]
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Finalist Luxembourg-India Hackathon '23",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
@@ -383,7 +383,93 @@ const achievementSection = {
           url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
-    }
+    },
+    {
+      title: "Smart India Hackathon 2022 Winner",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Smart India Hackathon 2022 Winner",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Smart India Hackathon 2022 Winner",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Smart India Hackathon 2022 Winner",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Smart India Hackathon 2022 Winner",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };

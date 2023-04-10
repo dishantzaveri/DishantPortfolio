@@ -340,7 +340,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon 2022 Winner",
       subtitle:
-        "Won India's biggest hackathon which took place at IIT Guwahati and interacted with PM Modi.",
+        "Won India's biggest hackathon which took place at IIT Guwahati and interacted with PM Modi. The cash prize was 1 lakh rupees.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -357,7 +357,7 @@ const achievementSection = {
     {
       title: "Finalist UNESCO India Africa Hackathon '22.",
       subtitle:
-        "Was a part of the first ever international hackathon where Africans from different countries come to Noida,India and developing solutions on problem statements.",
+        "Was a part of the first ever international hackathon where Africans from different countries came to Noida, India and developed solutions on problem statements. The event was attended by Vice President of India.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -374,7 +374,7 @@ const achievementSection = {
 
     {
       title: "Finalist Luxembourg-India Hackathon '23",
-      subtitle: "Selected for another international ",
+      subtitle: "Selected for another international hackathon which is going to take place in 2023.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -386,9 +386,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Smart India Hackathon 2022 Winner",
+      title: "Top 50 - Samsung's Solve For Tomorrow 2022",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Was a part of top 50 of Samsung India's first ever SFT which took place at IIT Delhi. The event was attended by entire Samsung's Jury",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -403,9 +403,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Smart India Hackathon 2022 Winner",
+      title: "Participated in Rajasthan's IT Hackathon 2023",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -420,7 +420,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Smart India Hackathon 2022 Winner",
+      title: "Winner of DJ CSI's Codeshastra 9.0",
       subtitle:
         "Won India's biggest hackathon and interacted with PM Modi.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -437,7 +437,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Smart India Hackathon 2022 Winner",
+      title: "Second place at VJTI's 24 Hours Hackathon Technovanza 2022.",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -454,7 +454,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Smart India Hackathon 2022 Winner",
+      title: "Second place at Thadomal's CSI Rubix Hackathon 2023",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -470,6 +470,58 @@ const achievementSection = {
         },
       ]
     },
+    {
+      title: "Third place at TCET's Hackathon Hackanova 2022.",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Third place at DJ Sanghvi's Hackathon ClashOfCodes 2023.",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Hacktoberfest 2022.",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Event photo",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+      ]
+    },
+   
 
   ],
   display: true // Set false to hide this section, defaults to true

@@ -139,8 +139,9 @@ const educationInfo = {
       duration: "Feb 2020 - April 2024",
       desc: "CGPA - 9.57.",
       descBullets: [
-        "Participated in the many hackathons.",
-        "Published 2 Research Papers in IEEE Format."
+        "Participated and won many hackathons.",
+        "Published 2 Research Papers in IEEE Format.",
+        "Co-Chairperson of  Artificial Intelligence and Machine Learning group of the Department of Computer Engineering at Dwarkadas J. Sanghvi College of Engineering.."
       ]
     },
     // {
@@ -339,7 +340,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon 2022 Winner",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Won India's biggest hackathon and interacted with PM Modi.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -421,7 +422,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon 2022 Winner",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Won India's biggest hackathon and interacted with PM Modi.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [

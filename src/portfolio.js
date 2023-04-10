@@ -340,7 +340,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon 2022 Winner",
       subtitle:
-        "Won India's biggest hackathon and interacted with PM Modi.",
+        "Won India's biggest hackathon which took place at IIT Guwahati and interacted with PM Modi.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -357,7 +357,7 @@ const achievementSection = {
     {
       title: "Finalist UNESCO India Africa Hackathon '22.",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Was a part of the first ever international hackathon where Africans from different countries come to Noida,India and developing solutions on problem statements.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -374,7 +374,7 @@ const achievementSection = {
 
     {
       title: "Finalist Luxembourg-India Hackathon '23",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Selected for another international ",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [

@@ -525,7 +525,7 @@ const achievementSection = {
       title: "Reached third roud of L&T Technology's Techgium 2022",
       // subtitle:
       //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/techgium.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {

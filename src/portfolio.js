@@ -374,7 +374,7 @@ const achievementSection = {
 
     {
       title: "Finalist Luxembourg-India Hackathon '23",
-      subtitle: "Selected for another international hackathon which is going to take place in 2023.",
+      subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
       image: require("./assets/images/lux.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [

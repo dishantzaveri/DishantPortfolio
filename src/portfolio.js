@@ -404,8 +404,9 @@ const achievementSection = {
     },
     {
       title: "Participated in Rajasthan's IT Hackathon 2023",
-      subtitle:
-        "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
+      // subtitle:
+      //   "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
+      // 
       image: require("./assets/images/rajasthan.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -522,7 +523,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Reached third roud of L&T Technology's Techgium 2022",
+      title: "Reached third round of L&T Technology's Techgium 2022",
       // subtitle:
       //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/techgium.png"),

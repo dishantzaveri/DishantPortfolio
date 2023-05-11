@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 I have a deep interest in Machine Learning and Artificial Intelligence 🌎"),
   resumeLink:
-    "https://drive.google.com/file/d/1cBKfT9SmEtzYc6riY87Wt7TCMWKbCiDn/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

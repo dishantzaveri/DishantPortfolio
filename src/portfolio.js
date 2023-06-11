@@ -190,6 +190,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "NLP Research Intern",
+      company: "IIT Patna",
+      companylogo: require("./assets/images/iitpatna.png"),
+      date: "February 2022 - Present",
+      desc: "Scrapped and annotated peer reviews from electric venues such as ICLR, Open Review , and NIPS.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "Flutter and Machine Learning Developer",
+      company: "Earnest Data Analytics Pvt Ltd",
+      companylogo: require("./assets/images/earnestdata.jpeg"),
+      date: "July 2023 - Present",
+      desc: "Train and optimize ML models deployed on Amazon Sagemaker.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
       role: "App Developer",
       company: "Jobs Territory",
       companylogo: require("./assets/images/jobst.jpg"),
@@ -243,17 +265,13 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    {
-      role: "React Native Mentor",
-      company: "DJ Unicode",
-      companylogo: require("./assets/images/unicode.jpg"),
-      date: "Aug 2021 - Present",
-      desc: "Learnt React Native from my mentors in my second year and became a mentor later thus following the tradition."
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    },
+    // {
+    //   role: "React Native Mentor",
+    //   company: "DJ Unicode",
+    //   companylogo: require("./assets/images/unicode.jpg"),
+    //   date: "Aug 2021 - Present",
+    //   desc: "Learnt React Native from my mentors in my second year and became a mentor later thus following the tradition."
+    // },
     // {
     //   role: "Publicity Department",
     //   company: "DJ Codestars",
@@ -265,25 +283,13 @@ const workExperiences = {
     //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     //   // ]
     // },
-    {
-      role: "Flutter Developer",
-      company: "DJSCE ACM",
-      companylogo: require("./assets/images/acm.jpg"),
-      date: "Oct 2021 - Oct 2022",
-      desc: "Deployed an android app for the committee on playstore and participated in events."
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    },
-
     // {
-    //   role: "Android + Ios App Developer",
-    //   company: "Orinova",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "March 2022 - May 2022",
-    //   desc: "Debug and improve the play store Folktel App."
-    // }
+    //   role: "Flutter Developer",
+    //   company: "DJSCE ACM",
+    //   companylogo: require("./assets/images/acm.jpg"),
+    //   date: "Oct 2021 - Oct 2022",
+    //   desc: "Deployed an android app for the committee on playstore and participated in events."
+    // },
   ]
 };
 

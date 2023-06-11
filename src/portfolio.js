@@ -201,7 +201,7 @@ const workExperiences = {
       // ]
     },
     {
-      role: "Flutter and Machine Learning Developer",
+      role: "Flutter + ML Developer",
       company: "Earnest Data Analytics Pvt Ltd",
       companylogo: require("./assets/images/earnestdata.jpeg"),
       date: "July 2023 - Present",
@@ -212,7 +212,7 @@ const workExperiences = {
       // ]
     },
     {
-      role: "App Developer",
+      role: "Full Stack App Developer",
       company: "Jobs Territory",
       companylogo: require("./assets/images/jobst.jpg"),
       date: "July 2022 - September 2022",
@@ -223,21 +223,21 @@ const workExperiences = {
       // ]
     },
     {
-      role: "App Developer",
+      role: "React Native App Developer",
       company: "Trueno",
       companylogo: require("./assets/images/trueno.jpg"),
       date: "April 2022 - June 2022",
       desc: "Build a Mechanics App from scratch and debug the deployed Customer App."
     },
     {
-      role: "App Developer",
+      role: "Android Developer",
       company: "Orinova",
       companylogo: require("./assets/images/oriniva.png"),
       date: "March 2022 - May 2022",
       desc: "Debug and improve the play store Folktel App."
     },
     {
-      role: "Research Intern",
+      role: "Associate Project Manager",
       company: "Sapio Analytics",
       companylogo: require("./assets/images/sapio.png"),
       date: "Jan 2022 - March 2022",

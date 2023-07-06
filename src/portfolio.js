@@ -204,8 +204,8 @@ const workExperiences = {
       role: "Flutter + ML Developer",
       company: "Earnest Data Analytics Pvt Ltd",
       companylogo: require("./assets/images/earnestdata.jpeg"),
-      date: "July 2023 - Present",
-      desc: "Train and optimize ML models deployed on Amazon Sagemaker.",
+      date: "June 2023 - July 2023",
+      desc: "Train and optimize ML models deployed on Amazon Sagemaker and develop the BachatCards and Benefitwise apps.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"

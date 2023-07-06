@@ -406,12 +406,25 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1g9woW9z_fvtveOAu5U8BGfexcSouC0e5/view?usp=sharing"
         },
         // {
         //   name: "Event photo",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         // },
+      ]
+    },
+    {
+      title: "Finalist Singapore-India Hackathon '23",
+     // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
+      image: require("./assets/images/sih.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://singaporeindiahackathon.com/shortlist-student.php"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     },
     {
@@ -427,6 +440,7 @@ const achievementSection = {
         // }
       ]
     },
+
     {
       title: "Winner of DJ CSI's Codeshastra 9.0",
       // subtitle:
@@ -529,23 +543,23 @@ const achievementSection = {
         // },
       ]
     },
-    {
-      title: "Reached third round of L&T Technology's Techgium 2022",
-      // subtitle:
-      //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/techgium.png"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1YwwjqBqCG7CFFEqnJOCupfAXqpzMUItE/view?usp=share_link"
-        },
-        // {
-        //   name: "Event photo",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-      ]
-    },
+    // {
+    //   title: "Reached third round of L&T Technology's Techgium 2022",
+    //   // subtitle:
+    //   //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    //   image: require("./assets/images/techgium.png"),
+    //   imageAlt: "Google Code-In Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/1YwwjqBqCG7CFFEqnJOCupfAXqpzMUItE/view?usp=share_link"
+    //     },
+    //     // {
+    //     //   name: "Event photo",
+    //     //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+    //     // },
+    //   ]
+    // },
    
 
   ],

@@ -356,7 +356,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Winner of Singapore-India Hackathon '23",
-     subtitle: "Winner of Singapore India Hackathon 2023 held at IIT Gandhinagar. Received prize from Education Minister of India and Deputy Prime Minister of Singapore. The event was organized by NTU Singapore and AICTE with many industry experts present.",
+     subtitle: "Winner of Singapore India Hackathon 2023 held at IIT Gandhinagar. Received prize from Education Minister of India and Deputy Prime Minister of Singapore.",
       image: require("./assets/images/singaporeind.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [

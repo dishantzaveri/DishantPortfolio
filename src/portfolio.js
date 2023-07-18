@@ -329,6 +329,17 @@ const bigProjects = {
           url: "https://ieeexplore.ieee.org/abstract/document/9989074"
         }
       ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
+      projectDesc: "The Journal Of Supercomputing",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://doi.org/10.21203/rs.3.rs-3106789/v1"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,6 +354,19 @@ const achievementSection = {
     "Achievements, Certifications, Hackathons and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Winner of Singapore-India Hackathon '23",
+     subtitle: "Winner of Singapore India Hackathon 2023 held at IIT Gandhinagar. Received prize from Education Minister of India and Deputy Prime Minister of Singapore. The event was organized by NTU Singapore and AICTE with many industry experts present.",
+      image: require("./assets/images/singaporeind.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1F-ipCMQEHgsvwAebczv8kAmQw_MxWCrf/view?usp=sharing"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
     {
       title: "Smart India Hackathon 2022 Winner",
       subtitle:
@@ -398,8 +422,8 @@ const achievementSection = {
     },
     {
       title: "Participated in Rajasthan's IT Hackathon 2023",
-      subtitle:
-        "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
+      // subtitle:
+      //   "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
       
       image: require("./assets/images/rajasthan.jpg"),
       imageAlt: "Google Code-In Logo",
@@ -414,19 +438,7 @@ const achievementSection = {
         // },
       ]
     },
-    {
-      title: "Finalist Singapore-India Hackathon '23",
-     // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
-      image: require("./assets/images/sih.png"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: "https://singaporeindiahackathon.com/shortlist-student.php"},
-        // {
-        //   name: "Final Project",
-        //   url: "https://pakistan-olx-1.firebaseapp.com/"
-        // }
-      ]
-    },
+   
     {
       title: "Finalist Luxembourg-India Hackathon '23",
      // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",

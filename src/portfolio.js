@@ -23,7 +23,7 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hi all, I'm Dishant",
   subTitle: emoji(
-    "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 I have a deep interest in Machine Learning and Artificial Intelligence 🌎"),
+    "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have professional experience in Python , Javascript , C++. I also seem to have a good expereince of HTML , CSS , Dart. 🕹 I have a deep interest in Machine Learning and Artificial Intelligence 🌎. I have won multiple national and international hackathons and I am deep into research having 5 research papers published."),
   resumeLink:
     "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing",
   cvLink:

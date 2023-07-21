@@ -139,7 +139,7 @@ const educationInfo = {
       logo: require("./assets/images/djscamvi.png"),
       subHeader: "Bachelor of Technology in Computer Engineering",
       duration: "Feb 2020 - April 2024",
-      desc: "CGPA - 9.57.",
+      desc: "CGPA - 9.44.",
       descBullets: [
         "Participated and won many hackathons.",
         "Published 2 Research Papers in IEEE Format.",

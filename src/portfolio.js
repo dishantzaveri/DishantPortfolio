@@ -25,7 +25,9 @@ const greeting = {
   subTitle: emoji(
     "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have basic experience in Python , Javascript. I also seem to have a good expereince of HTML , CSS. 🕹 I have a deep interest in Machine Learning and Artificial Intelligence 🌎"),
   resumeLink:
-    "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing",
+  cvLink:
+    "https://drive.google.com/file/d/1v6vtZC3vDf7FflfUHiDDqyEaczJt_mn1/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -57,7 +59,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡Integrate applications using Artificial Intelligence and Machine Learning"), 
+    emoji("⚡Integrate applications using Artificial Intelligence and Machine Learning"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean / Node / Django"
     )
@@ -254,7 +256,7 @@ const workExperiences = {
       date: "Jan 2022 - Jan 2023",
       desc: "A crashcourse with various tech stack lectures and a prohject phase at the end."
     },
-     {
+    {
       role: "Co-Chairperson",
       company: "DJS Synapse",
       companylogo: require("./assets/images/synapse.jpg"),
@@ -305,7 +307,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Research Papers Published",
-  subtitle: "Google Scholar Profile",
+  subtitle: "I have written and presented various research papers out of which 3 are published , 2 are accpeted and 3 are in under review.",
   projects: [
     {
       image: require("./assets/images/ieee.jpeg"),
@@ -356,11 +358,11 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Winner of Singapore-India Hackathon '23",
-     subtitle: "Winner of Singapore India Hackathon 2023 held at IIT Gandhinagar. Received prize from Education Minister of India and Deputy Prime Minister of Singapore.",
+      subtitle: "Winner of Singapore India Hackathon 2023 held at IIT Gandhinagar. Received prize from Education Minister of India and Deputy Prime Minister of Singapore.",
       image: require("./assets/images/singaporeind.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1F-ipCMQEHgsvwAebczv8kAmQw_MxWCrf/view?usp=sharing"},
+        { name: "Certification", url: "https://drive.google.com/file/d/1F-ipCMQEHgsvwAebczv8kAmQw_MxWCrf/view?usp=sharing" },
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -402,7 +404,7 @@ const achievementSection = {
       ]
     },
 
-   
+
     {
       title: "Top 50 - Samsung's Solve For Tomorrow 2022",
       subtitle:
@@ -424,7 +426,7 @@ const achievementSection = {
       title: "Participated in Rajasthan's IT Hackathon 2023",
       // subtitle:
       //   "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
-      
+
       image: require("./assets/images/rajasthan.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -438,14 +440,14 @@ const achievementSection = {
         // },
       ]
     },
-   
+
     {
       title: "Finalist Luxembourg-India Hackathon '23",
-     // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
+      // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
       image: require("./assets/images/lux.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://luxembourg-india.mic.gov.in/uia/assets/doc/LIST-OF-SELECTED-INDIAN-PARTICIPANTS-FOR-INDIA-LUXEMBOURG-HACKATHON.pdf"},
+        { name: "Certification", url: "https://luxembourg-india.mic.gov.in/uia/assets/doc/LIST-OF-SELECTED-INDIAN-PARTICIPANTS-FOR-INDIA-LUXEMBOURG-HACKATHON.pdf" },
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -572,7 +574,7 @@ const achievementSection = {
     //     // },
     //   ]
     // },
-   
+
 
   ],
   display: true // Set false to hide this section, defaults to true

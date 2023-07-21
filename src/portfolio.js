@@ -307,7 +307,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Research Papers Published",
-  subtitle: "I have written and presented various research papers out of which 3 are published , 2 are accpeted and 3 are in under review.",
+  subtitle: "I have written and presented various research papers out of which 3 are published , 2 are accepted and 3 are in under review.",
   projects: [
     {
       image: require("./assets/images/ieee.jpeg"),

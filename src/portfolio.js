@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Dishant Zaveri",
-  title: "Hi all, I'm Dishant",
+  title: "Hey, Dishant here",
   subTitle: emoji(
-    "Welcome! My name is Dishant and I am a React Native and Flutter Developer , and I have professional experience in Python , Javascript , C++. I also seem to have a good expereince of HTML , CSS , Dart. 🕹 I have a deep interest in Machine Learning and Artificial Intelligence 🌎. I have won multiple national and international hackathons and I am deep into research having 5 research papers published."),
+    "Welcome! My name is Dishant Zaveri and I am a React Native and Flutter Developer. I have professional experience in Python, Javascript, C++. I also seem to have a good expereince of HTML , CSS , Dart. 🕹 I have a deep interest in Machine Learning , Artificial Intelligence 🌎 and Research. I have won multiple national and international hackathons and I am deep into research having 6 research papers published. I have a good work experience of 7 internships"),
   resumeLink:
     "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing",
   cvLink:
@@ -61,8 +61,11 @@ const skillsSection = {
     ),
     emoji("⚡Integrate applications using Artificial Intelligence and Machine Learning"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean / Node / Django"
-    )
+      "⚡ Integration of 3rd party services like Firebase/ AWS / Node / Django"
+    ),
+    emoji( "⚡ Research and Development"),
+    emoji( "⚡ Deploying the web app on cloud platforms like AWS and Heroku"),
+    emoji( "⚡ Creating application backend in Node, Express & Flask"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -141,9 +144,9 @@ const educationInfo = {
       duration: "Feb 2020 - April 2024",
       desc: "CGPA - 9.44.",
       descBullets: [
-        "Participated and won many hackathons.",
-        "Published 2 Research Papers in IEEE Format.",
-        "Co-Chairperson of  Artificial Intelligence and Machine Learning group of the Department of Computer Engineering at Dwarkadas J. Sanghvi College of Engineering.."
+        "Participated and won many national and international hackathons.",
+        "Published 7 Research Papers in IEEE Format.",
+        "Ex Co-Chairperson of  Artificial Intelligence and Machine Learning group of the Department of Computer Engineering at Dwarkadas J. Sanghvi College of Engineering.."
       ]
     },
     // {
@@ -260,8 +263,8 @@ const workExperiences = {
       role: "Co-Chairperson",
       company: "DJS Synapse",
       companylogo: require("./assets/images/synapse.jpg"),
-      date: "Aug 2022 - Present",
-      desc: "Managing the entire club adn its events . Wrote to research papers in my second year under this club"
+      date: "Aug 2022 - Aug 2023",
+      desc: "Managing and leading the entire club and its events . Wrote and guided many research papers during my tenure"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -307,7 +310,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Research Papers Published",
-  subtitle: "I have written and presented various research papers out of which 3 are published , 2 are accepted and 3 are in under review.",
+  subtitle: "I have written and presented various research papers out of which 3 are published , 4 are presented and 1 is accepted.",
   projects: [
     {
       image: require("./assets/images/ieee.jpeg"),
@@ -335,11 +338,66 @@ const bigProjects = {
     {
       image: require("./assets/images/ieee.jpeg"),
       projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
-      projectDesc: "The Journal Of Supercomputing",
+      projectDesc: "17th International Conference on Information Technology and Applications (ICITA)",
       footerLink: [
         {
           name: "DOI",
           url: "https://doi.org/10.21203/rs.3.rs-3106789/v1"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
+      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA-2023)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1VTvpgLHtbyxHQ8x_lC3cJDpE1XoblcnX/view"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Revolutionalizing Obstetric Care : IoT, AI-Enabled, and Data-Driven Partograph System",
+      projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://etncc.nust.na/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "A Device for Detection and Deterrence of Locust Threats",
+      projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://etncc.nust.na/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Time Quantum Optimization in Round Robin algorithm",
+      projectDesc: "International Conference on Network, Multimedia and Information Technology (NMITCON)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/19uzvncbMr_hL55IcMbCtxdF9Rt0PO5-j/view"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Insider Trading Detection using Machine Learning",
+      projectDesc: "Yet to be decided",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/19uzvncbMr_hL55IcMbCtxdF9Rt0PO5-j/view"
         }
       ]
     }
@@ -351,7 +409,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements and Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Hackathons and Some Cool Stuff that I have done !",
 

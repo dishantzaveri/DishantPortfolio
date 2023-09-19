@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 
+
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen

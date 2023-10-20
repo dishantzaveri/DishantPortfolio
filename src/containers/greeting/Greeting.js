@@ -48,13 +48,13 @@ export default function Greeting() {
                     href={greeting.resumeLink}
                   />
                 )}
-                 {greeting.resumeLink && (
+                 {/* {greeting.resumeLink && (
                   <Button
                     text="My CV"
                     newTab={true}
                     href={greeting.cvLink}
                   />
-                )}
+                )} */}
               </div>
             </div>
           </div>

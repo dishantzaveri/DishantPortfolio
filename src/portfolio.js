@@ -387,8 +387,8 @@ const bigProjects = {
       projectDesc: "International Conference on Network, Multimedia and Information Technology (NMITCON)",
       footerLink: [
         {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/19uzvncbMr_hL55IcMbCtxdF9Rt0PO5-j/view"
+          name: "Visit Paper",
+          url: "https://ieeexplore.ieee.org/document/10276146"
         }
       ]
     },

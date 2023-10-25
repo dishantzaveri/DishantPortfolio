@@ -365,8 +365,8 @@ const bigProjects = {
       projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
       footerLink: [
         {
-          name: "Certificate",
-          url: "https://etncc.nust.na/"
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/document/10284951"
         }
       ]
     },
@@ -376,8 +376,8 @@ const bigProjects = {
       projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
       footerLink: [
         {
-          name: "Certificate",
-          url: "https://etncc.nust.na/"
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/document/10284949"
         }
       ]
     },

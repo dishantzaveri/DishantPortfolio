@@ -25,7 +25,7 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hey, Dishant here",
   subTitle: emoji(
-    "Welcome! My name is Dishant Zaveri and I am a React Native and Flutter Developer. I have professional experience in Python, Javascript, C++. I also seem to have a good expereince of HTML , CSS , Dart. 🕹 I have a deep interest in Machine Learning , Artificial Intelligence 🌎 and Research. I have won multiple national and international hackathons and I am deep into research having 6 research papers published. I have a good work experience of 7 internships"),
+    "Welcome! My name is Dishant Zaveri and I am a React Native and Flutter Developer. I have professional experience in Python, Javascript, C++. I also seem to have a good expereince of HTML , CSS , Dart. 🕹 I have a deep interest in Machine Learning , Artificial Intelligence 🌎 and Research. I have won multiple national and international hackathons and I am deep into research having 8 research papers published. I have a good work experience of 7 internships"),
   resumeLink:
     "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing",
   cvLink:
@@ -143,11 +143,11 @@ const educationInfo = {
       schoolName: "Dwarkadas Jivanlal Sanghvi College of Engineering",
       logo: require("./assets/images/djscamvi.png"),
       subHeader: "Bachelor of Technology in Computer Engineering",
-      duration: "Feb 2020 - April 2024",
+      duration: "Dec 2020 - Jun 2024",
       desc: "CGPA - 9.44.",
       descBullets: [
         "Participated and won many national and international hackathons.",
-        "Published 7 Research Papers in IEEE Format.",
+        "Published 8 Research Papers in IEEE Format.",
         "Ex Co-Chairperson of  Artificial Intelligence and Machine Learning group of the Department of Computer Engineering at Dwarkadas J. Sanghvi College of Engineering.."
       ]
     },
@@ -200,7 +200,7 @@ const workExperiences = {
       role: "NLP Research Intern",
       company: "IIT Patna",
       companylogo: require("./assets/images/iitpatna.png"),
-      date: "February 2022 - Present",
+      date: "May 2022 - Present",
       desc: "Scrapped and annotated peer reviews from electric venues such as ICLR, Open Review , and NIPS.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -312,7 +312,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Research Papers Published",
-  subtitle: "I have written and presented various research papers out of which 3 are published , 4 are presented and 1 is accepted.",
+  subtitle: "I have written and presented various research papers. ORCID - https://orcid.org/0009-0002-0317-4949",
   projects: [
     {
       image: require("./assets/images/ieee.jpeg"),
@@ -320,7 +320,7 @@ const bigProjects = {
       projectDesc: "2022 Smart Technologies, Communication and Robotics (STCR)",
       footerLink: [
         {
-          name: "Visit Paper",
+          name: "DOI",
           url: "https://ieeexplore.ieee.org/abstract/document/10009508"
         }
         //  you can add extra buttons here.
@@ -332,7 +332,7 @@ const bigProjects = {
       projectDesc: "2022 IEEE 4th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)",
       footerLink: [
         {
-          name: "Visit Paper",
+          name: "DOI",
           url: "https://ieeexplore.ieee.org/abstract/document/9989074"
         }
       ]
@@ -348,17 +348,7 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
-      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA-2023)",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1VTvpgLHtbyxHQ8x_lC3cJDpE1XoblcnX/view"
-        }
-      ]
-    },
+
     {
       image: require("./assets/images/ieee.jpeg"),
       projectName: "Revolutionalizing Obstetric Care : IoT, AI-Enabled, and Data-Driven Partograph System",
@@ -387,7 +377,7 @@ const bigProjects = {
       projectDesc: "International Conference on Network, Multimedia and Information Technology (NMITCON)",
       footerLink: [
         {
-          name: "Visit Paper",
+          name: "DOI",
           url: "https://ieeexplore.ieee.org/document/10276146"
         }
       ]
@@ -395,14 +385,25 @@ const bigProjects = {
     {
       image: require("./assets/images/ieee.jpeg"),
       projectName: "Insider Trading Detection using Machine Learning",
-      projectDesc: "Yet to be decided",
+      projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
       footerLink: [
         {
           name: "Certificate",
-          url: "https://drive.google.com/file/d/19uzvncbMr_hL55IcMbCtxdF9Rt0PO5-j/view"
+          url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
+      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1VTvpgLHtbyxHQ8x_lC3cJDpE1XoblcnX/view"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

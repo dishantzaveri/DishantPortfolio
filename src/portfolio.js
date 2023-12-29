@@ -484,6 +484,25 @@ const achievementSection = {
       ]
     },
     {
+      title: "Winner of IIT Bomabay's Techfest's HERE Hackathon '23",
+      // subtitle:
+      //   "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
+
+      image: require("./assets/images/HereHack.jpeg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1g8OfOw7JvQW4U6D8dpY3HPNkRGND2e9-/view?usp=sharing"
+        },
+        // {
+        //   name: "Event photo",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+      ]
+    },
+
+    {
       title: "Participated in Rajasthan's IT Hackathon 2023",
       // subtitle:
       //   "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
@@ -601,23 +620,23 @@ const achievementSection = {
         // },
       ]
     },
-    {
-      title: "Hacktoberfest 2022.",
-      // subtitle:
-      //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/hacktoberfest.jpg"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1Nf_6j0nNzEKImUyIMfA9gZDLdqVd5dC3/view?usp=share_link"
-        },
-        // {
-        //   name: "Event photo",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-      ]
-    },
+    // {
+    //   title: "Hacktoberfest 2022.",
+    //   // subtitle:
+    //   //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    //   image: require("./assets/images/hacktoberfest.jpg"),
+    //   imageAlt: "Google Code-In Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/1Nf_6j0nNzEKImUyIMfA9gZDLdqVd5dC3/view?usp=share_link"
+    //     },
+    //     // {
+    //     //   name: "Event photo",
+    //     //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+    //     // },
+    //   ]
+    // },
     // {
     //   title: "Reached third round of L&T Technology's Techgium 2022",
     //   // subtitle:

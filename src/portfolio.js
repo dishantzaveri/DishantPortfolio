@@ -484,7 +484,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Winner of IIT Bomabay's Techfest's HERE Hackathon '23",
+      title: "Winner of IIT Bombay Techfest's HERE Hackathon '23",
       // subtitle:
       //   "The event took place in Jaipur and was attend by Rajasthan's Chief Minister , Krish Naik , Kabir Khan and Ashneer Grover.",
 

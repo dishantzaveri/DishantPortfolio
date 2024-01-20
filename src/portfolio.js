@@ -304,9 +304,103 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  title: "Research Papers Published",
+  subtitle: "I have written and presented various research papers. ORCID - https://orcid.org/0009-0002-0317-4949",
+  projects: [
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Estimating GeoJSON Coordinates using Image Processing to Improve Census Credibility",
+      projectDesc: "2022 Smart Technologies, Communication and Robotics (STCR)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/abstract/document/10009508"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Aero Drums-Augmented Virtual Drums",
+      projectDesc: "2022 IEEE 4th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/abstract/document/9989074"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
+      projectDesc: "17th International Conference on Information Technology and Applications (ICITA)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://doi.org/10.21203/rs.3.rs-3106789/v1"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Revolutionalizing Obstetric Care : IoT, AI-Enabled, and Data-Driven Partograph System",
+      projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/document/10284951"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "A Device for Detection and Deterrence of Locust Threats",
+      projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/document/10284949"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Time Quantum Optimization in Round Robin algorithm",
+      projectDesc: "International Conference on Network, Multimedia and Information Technology (NMITCON)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/document/10276146"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Insider Trading Detection using Machine Learning",
+      projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
+      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
+      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1VTvpgLHtbyxHQ8x_lC3cJDpE1XoblcnX/view"
+        }
+      ]
+    },
+  ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Some big projects you have worked on
 
@@ -316,7 +410,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/ieee.jpeg"),
-      projectName: "Estimating GeoJSON Coordinates using Image Processing to Improve Census Credibility2",
+      projectName: "Estimating GeoJSON Coordinates using Image Processing to Improve Census Credibility",
       projectDesc: "2022 Smart Technologies, Communication and Robotics (STCR)",
       footerLink: [
         {

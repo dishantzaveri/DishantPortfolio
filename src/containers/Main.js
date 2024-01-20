@@ -59,7 +59,7 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
-           <Blogs />
+           {/* <Blogs /> */}
              {/* <Talks /> */}
             <Twitter />
             {/* <Podcast /> */}

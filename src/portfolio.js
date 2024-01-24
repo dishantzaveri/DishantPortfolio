@@ -377,6 +377,17 @@ const openSource = {
     },
     {
       image: require("./assets/images/ieee.jpeg"),
+      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
+      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
+      footerLink: [
+        {
+          name: "DOI",
+          url: "https://ieeexplore.ieee.org/document/10392195"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ieee.jpeg"),
       projectName: "Insider Trading Detection using Machine Learning",
       projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
       footerLink: [
@@ -386,17 +397,7 @@ const openSource = {
         }
       ]
     },
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
-      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1VTvpgLHtbyxHQ8x_lC3cJDpE1XoblcnX/view"
-        }
-      ]
-    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };

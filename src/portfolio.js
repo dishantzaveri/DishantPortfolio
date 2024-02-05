@@ -303,7 +303,7 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
+const openSources = {
   title: "Research Papers Published",
   subtitle: "I have written and presented various research papers. ORCID - https://orcid.org/0009-0002-0317-4949",
   projects: [
@@ -402,7 +402,10 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
+const openSource = {
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
+};
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -496,6 +499,103 @@ const bigProjects = {
         {
           name: "Certificate",
           url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
+        }
+      ]
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+const githubProjects = {
+  title: "Projects",
+  subtitle: "I have made various industral projects. MY GITHUB - https://github.com/dishantzaveri",
+  projects: [
+    {
+      image: require("./assets/images/eco_eats.png"),
+      projectName: "Eco Eats",
+      projectDesc: "Sustainable Food Delivery Optimization",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/HereHackathon"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/foxtrot.png"),
+      projectName: "Foxtrot",
+      projectDesc: "Revolutionary approach with generative AI and LLM to Insider Trading",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/SingaporeIndiaHackathon2023_TeamFoxtrot"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mentordots.jpg"),
+      projectName: "MentorDots",
+      projectDesc: "Software Platform for effective mentorship of startups and entrepreneurs",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/SIH-TeamEnemiesOfSyntaxx"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/decorgpt.png"),
+      projectName: "decorGPT",
+      projectDesc: "One-stop shop for visualize, plan and get inspiration for all your home decor needs",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/djcsi_EnemiesOfSyntax"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cargpt.jpg"),
+      projectName: "carGPT",
+      projectDesc: "A predictive model that can accurately predict the price of used cars using ML techniques",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/EnemiesOfSyntax_Datahack"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dwitter.png"),
+      projectName: "Dwitter",
+      projectDesc: "Decentralized Tweeting System using Ethereum Blockchain, Django and React",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/SPITHackathon2023_EnemiesOfSyntax"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/billionables.png"),
+      projectName: "BillionAbles",
+      projectDesc: "An Assistive tool for Differently Abled People to Help them in communication",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/BillionAbles"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sportify.jpeg"),
+      projectName: "Sportify",
+      projectDesc: "Personal Coach to learn various sports such as Cricket, Football, Yoga, Fitness",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/LOC4.0_EnemiesofSyntax"
         }
       ]
     },
@@ -845,6 +945,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  githubProjects,
   achievementSection,
   blogSection,
   talkSection,

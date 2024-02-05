@@ -20,6 +20,7 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import GithubProject from "./GithubProjects/GithubProject";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -56,9 +57,11 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
-            <Projects />
+            <Projects /> 
+           
             <StartupProject />
             <Achievement />
+            <GithubProject/>
            {/* <Blogs /> */}
              {/* <Talks /> */}
             <Twitter />

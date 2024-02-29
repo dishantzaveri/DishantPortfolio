@@ -200,7 +200,7 @@ const workExperiences = {
       role: "NLP Research Intern",
       company: "IIT Patna",
       companylogo: require("./assets/images/iitpatna.png"),
-      date: "May 2022 - Present",
+      date: "May 2022 -Jan 2023",
       desc: "Scrapped and annotated peer reviews from electric venues such as ICLR, Open Review , and NIPS.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -510,6 +510,18 @@ const githubProjects = {
   subtitle: "I have made various industral projects. MY GITHUB - https://github.com/dishantzaveri",
   projects: [
     {
+      image: require("./assets/images/docstruct.jpg"),
+      projectName: "DocStruct",
+      projectDesc: "File management system designed specifically for professionals in the construction and civil engineering sectors.",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/DocStruct"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/eco_eats.png"),
       projectName: "Eco Eats",
       projectDesc: "Sustainable Food Delivery Optimization",
@@ -578,6 +590,17 @@ const githubProjects = {
       ]
     },
     {
+      image: require("./assets/images/sambharat.png"),
+      projectName: "Samriddh Bharat",
+      projectDesc: "Promoting financial inclusion and economic empowerment for Rajasthan Government",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/RajasthanITHackathon"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/billionables.png"),
       projectName: "BillionAbles",
       projectDesc: "An Assistive tool for Differently Abled People to Help them in communication",
@@ -596,6 +619,28 @@ const githubProjects = {
         {
           name: "Project Link",
           url: "https://github.com/dishantzaveri/LOC4.0_EnemiesofSyntax"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/buyonic.svg"),
+      projectName: "Buyonic",
+      projectDesc: "Platform where multiple businesses can post their requirement anonym",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/Buyonic"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/easydorms.webp"),
+      projectName: "easyDorms",
+      projectDesc: "A seamless hostel management experience for users",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/hostelmanagementappflutter"
         }
       ]
     },

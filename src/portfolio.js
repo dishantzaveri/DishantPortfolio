@@ -146,6 +146,7 @@ const educationInfo = {
       duration: "Dec 2020 - Jun 2024",
       desc: "CGPA - 9.462.",
       descBullets: [
+        "Honours in Intelligent Computing.",
         "Participated and won many national and international hackathons.",
         "Published 8 Research Papers in IEEE Format.",
         "Ex Co-Chairperson of  Artificial Intelligence and Machine Learning group of the Department of Computer Engineering at Dwarkadas J. Sanghvi College of Engineering.."

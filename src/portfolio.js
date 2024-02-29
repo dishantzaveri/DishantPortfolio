@@ -513,7 +513,7 @@ const githubProjects = {
     {
       image: require("./assets/images/docstruct.jpg"),
       projectName: "DocStruct",
-      projectDesc: "File management system designed specifically for professionals in the construction and civil engineering sectors.",
+      projectDesc: "File management system designed specifically for professionals in the construction sector.",
       footerLink: [
         {
           name: "Project Link",
@@ -624,7 +624,7 @@ const githubProjects = {
       ]
     },
     {
-      image: require("./assets/images/buyonic.svg"),
+      image: require("./assets/images/buyonic.png"),
       projectName: "Buyonic",
       projectDesc: "Platform where multiple businesses can post their requirement anonym",
       footerLink: [

@@ -511,7 +511,7 @@ const githubProjects = {
   subtitle: "I have made various industral projects. MY GITHUB - https://github.com/dishantzaveri",
   projects: [
     {
-      image: require("./assets/images/docstruct.jpg"),
+      image: require("./assets/images/docstructure.jpg"),
       projectName: "DocStruct",
       projectDesc: "File management system designed specifically for professionals in the construction sector.",
       footerLink: [

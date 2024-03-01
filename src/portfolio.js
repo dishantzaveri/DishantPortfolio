@@ -201,7 +201,7 @@ const workExperiences = {
       role: "NLP Research Intern",
       company: "IIT Patna",
       companylogo: require("./assets/images/iitpatna.png"),
-      date: "May 2022 -Jan 2023",
+      date: "May 2023 -Jan 2024",
       desc: "Scrapped and annotated peer reviews from electric venues such as ICLR, Open Review , and NIPS.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",

@@ -525,7 +525,7 @@ const githubProjects = {
     {
       image: require("./assets/images/eco_eats.png"),
       projectName: "Eco Eats",
-      projectDesc: "Sustainable Food Delivery Optimization",
+      projectDesc: "Sustainable Food Delivery Optimization using HERE Maps.",
       footerLink: [
         {
           name: "Project Link",
@@ -537,7 +537,7 @@ const githubProjects = {
     {
       image: require("./assets/images/foxtrot.png"),
       projectName: "Foxtrot",
-      projectDesc: "Revolutionary approach with generative AI and LLM to Insider Trading",
+      projectDesc: "Revolutionary approach with generative AI and LLM to Insider Trading.",
       footerLink: [
         {
           name: "Project Link",
@@ -548,7 +548,7 @@ const githubProjects = {
     {
       image: require("./assets/images/mentordots.jpg"),
       projectName: "MentorDots",
-      projectDesc: "Software Platform for effective mentorship of startups and entrepreneurs",
+      projectDesc: "Software Platform for effective mentorship of startups and entrepreneurs.",
       footerLink: [
         {
           name: "Project Link",
@@ -560,7 +560,7 @@ const githubProjects = {
     {
       image: require("./assets/images/decorgpt.png"),
       projectName: "decorGPT",
-      projectDesc: "One-stop shop for visualize, plan and get inspiration for all your home decor needs",
+      projectDesc: "One-stop shop for visualize, plan and get inspiration for all your home decor needs.",
       footerLink: [
         {
           name: "Project Link",
@@ -582,7 +582,7 @@ const githubProjects = {
     {
       image: require("./assets/images/dwitter.png"),
       projectName: "Dwitter",
-      projectDesc: "Decentralized Tweeting System using Ethereum Blockchain, Django and React",
+      projectDesc: "Decentralized Tweeting System using Ethereum Blockchain, Django and React.",
       footerLink: [
         {
           name: "Project Link",
@@ -593,7 +593,7 @@ const githubProjects = {
     {
       image: require("./assets/images/sambharat.png"),
       projectName: "Samriddh Bharat",
-      projectDesc: "Promoting financial inclusion and economic empowerment for Rajasthan Government",
+      projectDesc: "Promoting financial inclusion and economic empowerment for Rajasthan Government.",
       footerLink: [
         {
           name: "Project Link",
@@ -604,7 +604,7 @@ const githubProjects = {
     {
       image: require("./assets/images/billionables.png"),
       projectName: "BillionAbles",
-      projectDesc: "An Assistive tool for Differently Abled People to Help them in communication",
+      projectDesc: "An Assistive tool for Differently Abled People to Help them in communication.",
       footerLink: [
         {
           name: "Project Link",
@@ -615,7 +615,7 @@ const githubProjects = {
     {
       image: require("./assets/images/sportify.jpeg"),
       projectName: "Sportify",
-      projectDesc: "Personal Coach to learn various sports such as Cricket, Football, Yoga, Fitness",
+      projectDesc: "Personal Coach to learn various sports such as Cricket, Football, Yoga, Fitness.",
       footerLink: [
         {
           name: "Project Link",
@@ -626,7 +626,7 @@ const githubProjects = {
     {
       image: require("./assets/images/buyonic.png"),
       projectName: "Buyonic",
-      projectDesc: "Platform where multiple businesses can post their requirement anonym",
+      projectDesc: "Platform where multiple businesses can post their requirement anonym.",
       footerLink: [
         {
           name: "Project Link",
@@ -637,7 +637,7 @@ const githubProjects = {
     {
       image: require("./assets/images/easydorms.webp"),
       projectName: "easyDorms",
-      projectDesc: "A seamless hostel management experience for users",
+      projectDesc: "A seamless hostel management experience for users.",
       footerLink: [
         {
           name: "Project Link",

@@ -83,7 +83,17 @@
   transition: 0.2s ease-in;
 }
 
-@media (max-width: 768px) {
+/* Smaller devices (phones, less than 600px) */
+@media (max-width: 599px) {
+  .project-subtitle {
+    font-size: 14px; /* Slightly smaller font for very small screens */
+    text-align: center;
+    padding: 10px; /* Add some padding for smaller screens */
+  }
+}
+
+/* Medium devices (tablets, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;
     text-align: center;

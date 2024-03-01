@@ -83,9 +83,17 @@
   transition: 0.2s ease-in;
 }
 
+/* Very small devices (phones, 600px and under) */
+@media (max-width: 600px) {
+  .project-subtitle {
+    font-size: 14px; /* Slightly smaller font for very small screens */
+  }
+}
+
+/* Small devices (landscape phones, 768px and under) */
 @media (max-width: 768px) {
   .project-subtitle {
-    font-size: 16px;
+    font-size: 16px; /* Adjusting for slightly larger screens */
     text-align: center;
   }
 }

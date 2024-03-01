@@ -19,6 +19,19 @@
   color: $subTitle;
 }
 
+@media (max-width: 360px) {
+  .podcast-header-title {
+    font-size: 24px; /* slightly smaller for very small devices */
+  }
+  .podcast-header-subtitle {
+    font-size: 14px;
+  }
+  .podcast {
+    width: 90%; /* more fluid width */
+  }
+}
+
+
 @media (max-width: 768px) {
   .podcast-header-title {
     font-size: 30px;
@@ -31,7 +44,8 @@
   }
 
   .podcast {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
   }
   .podcast-main-div {
     text-align: center;

@@ -571,7 +571,7 @@ const githubProjects = {
     {
       image: require("./assets/images/cargpt.jpg"),
       projectName: "carGPT",
-      projectDesc: "A predictive model that can accurately predict the price of used cars using ML techniques",
+      projectDesc: "Predictive model that can accurately predict the price of used cars using ML techniques",
       footerLink: [
         {
           name: "Project Link",

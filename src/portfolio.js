@@ -763,6 +763,20 @@ const achievementSection = {
     },
 
     {
+      title: "Finalist Japan-India Hackathon '24",
+      // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
+      image: require("./assets/images/japanindia.jpeg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/1vv2m7o_YnSVKO2HGr4v6mXaVgxjWf-gh/view?usp=sharing" },
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+
+    {
       title: "Finalist Luxembourg-India Hackathon '23",
       // subtitle: "Selected for another international hackathon which is going to take place in 2023  organized by the University of Luxembourg Incubator & Entrepreneurship Program and the Ministry of Education (India)",
       image: require("./assets/images/lux.jpg"),
@@ -786,6 +800,42 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1TWPqwZv2wj28Iug6lSHW83DY0xXfg_Ye/view?usp=sharing"
+        },
+        // {
+        //   name: "Event photo",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+      ]
+    },
+
+    {
+      title: "India Sustainability Startathon '23 Special Panel and Masterclass.",
+      // subtitle:
+      //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/panel.jpeg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1tZWgMKMazzGNNiVgFuJBghkiCuz6hwEx/view?usp=v"
+        },
+        // {
+        //   name: "Event photo",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+      ]
+    },
+
+    {
+      title: "Chief Guest + Speaker at SFIT Techfest and HackX with Arsh Goyal.",
+      // subtitle:
+      //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/sfit.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1uOMpl-4n4CAJN2WJ3H41Vb5Z7BKI--Sb/view?usp=sharing"
         },
         // {
         //   name: "Event photo",
@@ -849,6 +899,24 @@ const achievementSection = {
       // subtitle:
       //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/coc.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1_nRQpPX3c7aZ8naQ7iRLr1hzeXYlpIhz/view?usp=share_link"
+        },
+        // {
+        //   name: "Event photo",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+      ]
+    },
+
+    {
+      title: "Third place at DJ Sanghvi's Hackathon Synergy 2024.",
+      // subtitle:
+      //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/synergy.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {

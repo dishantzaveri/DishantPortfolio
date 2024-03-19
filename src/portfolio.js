@@ -338,7 +338,7 @@ const openSources = {
       footerLink: [
         {
           name: "DOI",
-          url: "https://doi.org/10.21203/rs.3.rs-3106789/v1"
+          url: "https://doi.org/10.1007/978-981-99-8324-7_21"
         }
       ]
     },
@@ -443,7 +443,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "DOI",
-          url: "https://doi.org/10.21203/rs.3.rs-3106789/v1"
+          url: "https://doi.org/10.1007/978-981-99-8324-7_21"
         }
       ]
     },

@@ -655,7 +655,7 @@ const githubProjects = {
 const achievementSection = {
   title: emoji("Achievements and Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Hackathons and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Hackathons and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {

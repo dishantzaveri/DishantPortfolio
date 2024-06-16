@@ -1,0 +1,53 @@
+@import "../../_globalColor";
+
+.podcast-header-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.podcast {
+  width: 600px;
+}
+
+.podcast-main-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+@media (max-width: 360px) {
+  .podcast-header-title {
+    font-size: 24px; /* slightly smaller for very small devices */
+  }
+  .podcast-header-subtitle {
+    font-size: 14px;
+  }
+  .podcast {
+    width: 90%; /* more fluid width */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .podcast-header-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .podcast-header-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .podcast {
+    max-width: 300px;
+    width: 100%;
+  }
+  .podcast-main-div {
+    text-align: center;
+  }
+}

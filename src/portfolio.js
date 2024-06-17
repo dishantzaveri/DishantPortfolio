@@ -74,14 +74,14 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
     {
       skillName: "github",
       fontAwesomeClassname: "fab fa-github"
@@ -118,10 +118,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -348,104 +348,104 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSources = {
-  title: "Research Papers Published",
-  subtitle: "I have written and presented various research papers. ORCID - https://orcid.org/0009-0002-0317-4949",
-  projects: [
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Estimating GeoJSON Coordinates using Image Processing to Improve Census Credibility",
-      projectDesc: "2022 Smart Technologies, Communication and Robotics (STCR)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://ieeexplore.ieee.org/abstract/document/10009508"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Aero Drums-Augmented Virtual Drums",
-      projectDesc: "2022 IEEE 4th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://ieeexplore.ieee.org/abstract/document/9989074"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/springer.png"),
-      projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
-      projectDesc: "17th International Conference on Information Technology and Applications (ICITA)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://doi.org/10.1007/978-981-99-8324-7_21"
-        }
-      ]
-    },
+// const openSources = {
+//   title: "Research Papers Published",
+//   subtitle: "I have written and presented various research papers. ORCID - https://orcid.org/0009-0002-0317-4949",
+//   projects: [
+//     {
+//       image: require("./assets/images/ieee.jpeg"),
+//       projectName: "Estimating GeoJSON Coordinates using Image Processing to Improve Census Credibility",
+//       projectDesc: "2022 Smart Technologies, Communication and Robotics (STCR)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://ieeexplore.ieee.org/abstract/document/10009508"
+//         }
+//         //  you can add extra buttons here.
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/ieee.jpeg"),
+//       projectName: "Aero Drums-Augmented Virtual Drums",
+//       projectDesc: "2022 IEEE 4th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://ieeexplore.ieee.org/abstract/document/9989074"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/springer.png"),
+//       projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
+//       projectDesc: "17th International Conference on Information Technology and Applications (ICITA)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://doi.org/10.1007/978-981-99-8324-7_21"
+//         }
+//       ]
+//     },
 
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Revolutionalizing Obstetric Care : IoT, AI-Enabled, and Data-Driven Partograph System",
-      projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://ieeexplore.ieee.org/document/10284951"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "A Device for Detection and Deterrence of Locust Threats",
-      projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://ieeexplore.ieee.org/document/10284949"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Time Quantum Optimization in Round Robin algorithm",
-      projectDesc: "International Conference on Network, Multimedia and Information Technology (NMITCON)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://ieeexplore.ieee.org/document/10276146"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/ieee.jpeg"),
-      projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
-      projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
-      footerLink: [
-        {
-          name: "DOI",
-          url: "https://ieeexplore.ieee.org/document/10392195"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/springer.png"),
-      projectName: "Insider Trading Detection using Machine Learning",
-      projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
-        }
-      ]
-    },
+//     {
+//       image: require("./assets/images/ieee.jpeg"),
+//       projectName: "Revolutionalizing Obstetric Care : IoT, AI-Enabled, and Data-Driven Partograph System",
+//       projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://ieeexplore.ieee.org/document/10284951"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/ieee.jpeg"),
+//       projectName: "A Device for Detection and Deterrence of Locust Threats",
+//       projectDesc: "3rd International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://ieeexplore.ieee.org/document/10284949"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/ieee.jpeg"),
+//       projectName: "Time Quantum Optimization in Round Robin algorithm",
+//       projectDesc: "International Conference on Network, Multimedia and Information Technology (NMITCON)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://ieeexplore.ieee.org/document/10276146"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/ieee.jpeg"),
+//       projectName: "Transformation of text to decode Morse Code and its detection using eye blinks",
+//       projectDesc: "7th International Conference on Computing, Communication, Control and Automation (ICCUBEA)",
+//       footerLink: [
+//         {
+//           name: "DOI",
+//           url: "https://ieeexplore.ieee.org/document/10392195"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/springer.png"),
+//       projectName: "Insider Trading Detection using Machine Learning",
+//       projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
+//       footerLink: [
+//         {
+//           name: "Certificate",
+//           url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
+//         }
+//       ]
+//     },
     
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
@@ -481,7 +481,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ieee.jpeg"),
+      image: require("./assets/images/springer.png"),
       projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
       projectDesc: "17th International Conference on Information Technology and Applications (ICITA)",
       footerLink: [
@@ -537,7 +537,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ieee.jpeg"),
+      image: require("./assets/images/springer.png"),
       projectName: "Insider Trading Detection using Machine Learning",
       projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
       footerLink: [
@@ -705,7 +705,7 @@ const achievementSection = {
     {
       title: "Winner of Singapore-India Hackathon '23",
       subtitle: "Winner of Singapore India Hackathon 2023 held at IIT Gandhinagar. Received prize from Education Minister of India and Deputy Prime Minister of Singapore.",
-      image: require("./assets/images/singaporeind.jpg"),
+      image: require("./assets/images/dishantop.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/1F-ipCMQEHgsvwAebczv8kAmQw_MxWCrf/view?usp=sharing" },

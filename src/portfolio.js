@@ -376,7 +376,7 @@ const openSources = {
       ]
     },
     {
-      image: require("./assets/images/ieee.jpeg"),
+      image: require("./assets/images/springer.png"),
       projectName: "PreciSplit: A Novel Approach to Predicting Polynomial Regression Data",
       projectDesc: "17th International Conference on Information Technology and Applications (ICITA)",
       footerLink: [
@@ -432,7 +432,7 @@ const openSources = {
       ]
     },
     {
-      image: require("./assets/images/ieee.jpeg"),
+      image: require("./assets/images/springer.png"),
       projectName: "Insider Trading Detection using Machine Learning",
       projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
       footerLink: [

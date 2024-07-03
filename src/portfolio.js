@@ -152,7 +152,7 @@ const educationInfo = {
     {
       schoolName: "Dwarkadas Jivanlal Sanghvi College of Engineering",
       logo: require("./assets/images/djscamvi.png"),
-      subHeader: "Bachelor of Technology in Computer Engineering",
+      subHeader: "Bachelor of Technology in Computer Science",
       duration: "Dec 2020 - Jun 2024",
       desc: "CGPA - 9.5.",
       descBullets: [

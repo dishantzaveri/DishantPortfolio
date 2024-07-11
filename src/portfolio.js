@@ -25,7 +25,7 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hi, Dishant here",
   subTitle: emoji(
-    "Welcome! My name is Dishant Zaveri and I am a React Native and Flutter Developer. I have professional experience in Python, Javascript, C++. I also seem to have a good expereince of HTML , CSS , Dart. I have a deep interest in Machine Learning , Artificial Intelligence and Cyber Security. I have won multiple national and international hackathons and I am deep into research having 8 research papers published. I have a good work experience of 7 internships"),
+    "My name is Dishant Zaveri and I am a full stack app developer. I have professional experience in Python, Javascript, C++. I have a deep interest in Machine Learning , Artificial Intelligence and Cyber Security. I have won multiple national and international hackathons and published 8 research papers. I have a work experience of 7 internships."),
   resumeLink:
     "https://drive.google.com/file/d/1Mp12pIpH2zRwqAG37eC6fPgoY2OZPt_d/view?usp=sharing",
   cvLink:
@@ -55,7 +55,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  // title: "What I do",
   subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK !",
   skills: [
     emoji(
@@ -106,10 +106,10 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "swift",
     //   fontAwesomeClassname: "fab fa-swift"
     // },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -733,7 +733,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Finalist UNESCO India Africa Hackathon '22.",
+      title: "Finalist UNESCO India Africa Hackathon '22",
       subtitle:
         "Was a part of the first ever international hackathon where Africans from different countries came to Noida, India and developed solutions on problem statements. The event was attended by Vice President of India.",
       image: require("./assets/images/uia.jpg"),
@@ -752,7 +752,7 @@ const achievementSection = {
 
 
     {
-      title: "Top 50 - Samsung's Solve For Tomorrow 2022",
+      title: "Top 50 - Samsung's Solve For Tomorrow '22 and '24",
       subtitle:
         "Was a part of top 50 of Samsung India's first ever SFT which took place at IIT Delhi. The event was attended by entire Samsung's Jury",
       image: require("./assets/images/sft.jpeg"),
@@ -889,7 +889,7 @@ const achievementSection = {
     },
 
     {
-      title: "Chief Guest + Speaker at SFIT Techfest and HackX with Arsh Goyal.",
+      title: "Chief Guest + Speaker at SFIT Techfest and HackX with Arsh Goyal",
       // subtitle:
       //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/sfit.jpeg"),

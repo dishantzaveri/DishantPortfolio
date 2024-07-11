@@ -21,6 +21,16 @@
     font-size: 40px;
   }
 }
+
+@media (max-width: 1024px) {
+  .project-title {
+    font-size: 36px;
+  }
+  .repo-cards-div-main {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .project-title {
     font-size: 30px;
@@ -28,5 +38,14 @@
   }
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .project-title {
+    font-size: 24px;
+  }
+  .repo-cards-div-main {
+    grid-template-columns: 1fr;
   }
 }

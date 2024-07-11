@@ -29,9 +29,36 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .experience-heading {
+    font-size: 36px;
+  }
+}
+
 @media (max-width: 768px) {
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-heading {
+    font-size: 24px;
+  }
+
+  .experience-cards-div {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .experience-container {
+    width: 100%;
+    padding: 10px 5px;
   }
 }

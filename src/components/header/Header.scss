@@ -1,5 +1,30 @@
 @import "../../_globalColor";
 
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header-logo {
+  flex: 1 1 150px;
+}
+
+.nav-menu {
+  flex: 2 1 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    width: 100%;
+  }
+}
+
 /*React-headroom*/
 .headroom-wrapper {
   max-height: 100px;

@@ -58,6 +58,25 @@
   color: $subTitle;
 }
 
+@media (max-width: 1024px) {
+  .prof-title {
+    font-size: 36px;
+  }
+
+  .bio-text {
+    font-size: 20px;
+  }
+
+  .desc-prof {
+    line-height: 35px;
+    font-size: 18px;
+  }
+
+  .profile-image {
+    max-width: 300px;
+  }
+}
+
 @media (max-width: 768px) {
   .row {
     display: flex;
@@ -101,5 +120,24 @@
     padding-bottom: 1rem;
     font-size: 32px;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .prof-title {
+    font-size: 28px;
+  }
+
+  .bio-text {
+    font-size: 14px;
+  }
+
+  .desc-prof {
+    line-height: 25px;
+    font-size: 14px;
+  }
+
+  .profile-image {
+    max-width: 200px;
   }
 }

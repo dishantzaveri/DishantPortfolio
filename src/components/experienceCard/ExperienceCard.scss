@@ -100,9 +100,11 @@
   padding-top: 1.5rem;
   line-height: normal;
 }
+
 .dark-mode-text {
   color: $textColorDark !important;
 }
+
 .experience-text-date {
   text-align: center;
   color: $textColor;
@@ -121,8 +123,7 @@
   margin-top: 2rem;
 }
 
-/* Media Query */
-
+/* Media Query for tablets and smaller desktops */
 @media (max-width: 1380px) {
   .experience-text-role {
     padding-top: 0.5rem;
@@ -140,17 +141,74 @@
   }
 }
 
+/* Media Query for mobile devices */
 @media (max-width: 768px) {
   .experience-text-role {
-    font-size: 22px;
+    font-size: 20px;
+    padding-top: 0.5rem;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 20px;
+    padding: 1rem;
   }
   .experience-text-date {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .experience-roundedimg {
+    width: 5rem;
+    height: 5rem;
+    top: 5rem;
+  }
+  .experience-banner {
+    height: 8rem;
+  }
+  .experience-blurred_div {
+    height: 8rem;
+  }
+  .experience-div-company {
+    height: 6rem;
+  }
+  .experience-text-details {
+    padding: 1rem;
+    margin-top: 1rem;
   }
   .experience-text-desc {
-    font-size: 16px;
+    font-size: 14px;
+  }
+}
+
+/* Media Query for very small mobile devices */
+@media (max-width: 480px) {
+  .experience-text-role {
+    font-size: 18px;
+    padding-top: 0.3rem;
+  }
+  .experience-text-company {
+    font-size: 18px;
+    padding: 0.5rem;
+  }
+  .experience-text-date {
+    font-size: 14px;
+  }
+  .experience-roundedimg {
+    width: 4rem;
+    height: 4rem;
+    top: 4rem;
+  }
+  .experience-banner {
+    height: 6rem;
+  }
+  .experience-blurred_div {
+    height: 6rem;
+  }
+  .experience-div-company {
+    height: 5rem;
+  }
+  .experience-text-details {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .experience-text-desc {
+    font-size: 12px;
   }
 }

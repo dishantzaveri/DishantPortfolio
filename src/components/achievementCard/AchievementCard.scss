@@ -5,6 +5,7 @@
   height: auto;
   width: 250px;
 }
+
 .card-title {
   color: $titleColor;
   font-size: 1.375rem;
@@ -12,11 +13,13 @@
   font-weight: 700;
   margin: 15px 0 0 0;
 }
+
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 1.063rem;
   line-height: 1.5rem;
 }
+
 .certificate-card {
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -27,15 +30,19 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .certificate-detail-div {
   text-align: center;
 }
+
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
+
 .dark-mode.certificate-card:hover {
   box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
 }
+
 .certificate-image-div {
   position: relative;
   height: 250px;
@@ -44,17 +51,20 @@
   justify-content: center;
   align-items: center;
 }
+
 .achievement-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+
 .certificate-card-footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .certificate-card-footer span.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
@@ -72,6 +82,74 @@
   cursor: pointer;
   transition: 0.2s ease-in;
 }
+
 span.certificate-tag:hover {
   background: $buttonHover;
+}
+
+/* Media Query for tablets and smaller desktops */
+@media (max-width: 1024px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .card-subtitle {
+    font-size: 1rem;
+  }
+  .certificate-card {
+    padding: 1rem;
+  }
+  .certificate-image-div {
+    height: 200px;
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+  .card-image {
+    width: 200px;
+  }
+  .card-title {
+    font-size: 1.125rem;
+  }
+  .card-subtitle {
+    font-size: 0.875rem;
+  }
+  .certificate-card {
+    padding: 0.75rem;
+  }
+  .certificate-image-div {
+    height: 150px;
+  }
+  .achievement-cards-div {
+    grid-template-columns: 1fr;
+  }
+  .certificate-card-footer span.certificate-tag {
+    font-size: 0.625rem;
+    height: 1.75em;
+    padding: 0 0.5em;
+  }
+}
+
+/* Media Query for very small mobile devices */
+@media (max-width: 480px) {
+  .card-image {
+    width: 150px;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-subtitle {
+    font-size: 0.75rem;
+  }
+  .certificate-card {
+    padding: 0.5rem;
+  }
+  .certificate-image-div {
+    height: 100px;
+  }
+  .certificate-card-footer span.certificate-tag {
+    font-size: 0.5rem;
+    height: 1.5em;
+    padding: 0 0.4em;
+  }
 }

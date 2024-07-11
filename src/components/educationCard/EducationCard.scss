@@ -113,6 +113,7 @@
 @media (max-width: 768px) {
   .education-card {
     text-align: center;
+    flex-direction: column;
   }
   .education-card-right {
     max-width: 100%;
@@ -127,8 +128,37 @@
     margin-bottom: 1rem;
     margin-right: 0;
   }
+  .education-text-school {
+    font-size: 18px;
+    height: auto;
+  }
+  .education-text-subHeader {
+    font-size: 14px;
+  }
+  .education-text-duration {
+    font-size: 14px;
+  }
   .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-text-school {
+    font-size: 16px;
+  }
+  .education-text-subHeader {
+    font-size: 12px;
+  }
+  .education-text-duration {
+    font-size: 12px;
+  }
+  .education-roundedimg {
+    width: 3rem;
+    height: 3rem;
+  }
+  .education-text-bullets > ul {
+    max-width: 90%;
   }
 }

@@ -18,7 +18,7 @@ export default function GithubProject() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={500} distance="20px">
       <div className="main" id="githubprojects">
         <div>
           <h1 className="skills-heading">{githubProjects.title}</h1>

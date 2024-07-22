@@ -1,20 +1,85 @@
+// .experience-cards-div {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+//   gap: 1rem 1rem;
+// }
+
+// .experience-heading {
+//   font-size: 56px;
+//   font-weight: 400;
+// }
+
+// .experience-container {
+//   display: flex;
+//   width: 90%;
+//   padding: 20px 10px;
+//   margin: 0px auto;
+//   margin-top: 2rem;
+// }
+
+// .experience-container > * {
+//   flex: 1;
+// }
+
+// /* Media Query */
+
+// @media (max-width: 1380px) {
+//   .experience-heading {
+//     font-size: 40px;
+//   }
+// }
+
+// @media (max-width: 1024px) {
+//   .experience-heading {
+//     font-size: 36px;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .experience-heading {
+//     font-size: 30px;
+//     text-align: center;
+//   }
+
+//   .experience-container {
+//     flex-direction: column;
+//     align-items: center;
+//   }
+// }
+
+// @media (max-width: 480px) {
+//   .experience-heading {
+//     font-size: 24px;
+//   }
+
+//   .experience-cards-div {
+//     grid-template-columns: 1fr;
+//     gap: 0.5rem;
+//   }
+
+//   .experience-container {
+//     width: 100%;
+//     padding: 10px 5px;
+//   }
+// }
+
 .experience-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+  gap: 1rem;
 }
 
 .experience-heading {
   font-size: 56px;
   font-weight: 400;
+  text-align: center; /* Added for better alignment on smaller screens */
 }
 
 .experience-container {
   display: flex;
   width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
+  margin: 2rem auto 0;
 }
 
 .experience-container > * {
@@ -23,18 +88,30 @@
 
 /* Media Query */
 
+/* Large screens */
 @media (max-width: 1380px) {
   .experience-heading {
     font-size: 40px;
   }
 }
 
+/* Medium devices (tablets, 1024px and under) */
 @media (max-width: 1024px) {
   .experience-heading {
     font-size: 36px;
   }
+
+  .experience-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-cards-div {
+    gap: 0.75rem;
+  }
 }
 
+/* Small devices (landscape phones, 768px and under) */
 @media (max-width: 768px) {
   .experience-heading {
     font-size: 30px;
@@ -45,8 +122,13 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .experience-cards-div {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
+/* Very small devices (phones, 480px and under) */
 @media (max-width: 480px) {
   .experience-heading {
     font-size: 24px;

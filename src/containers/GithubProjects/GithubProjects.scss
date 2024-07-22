@@ -189,6 +189,8 @@
   transition: 0.2s ease-in;
 }
 
+/* Media Queries */
+
 /* Very small devices (phones, 600px and under) */
 @media (max-width: 600px) {
   .card-title {
@@ -246,6 +248,13 @@
     font-size: 22px;
   }
 
+  .projects-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Larger screens */
+@media (min-width: 1381px) {
   .projects-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }

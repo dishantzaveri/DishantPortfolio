@@ -146,7 +146,7 @@ const educationInfo = {
       duration: "Aug 2024 – May 2026",
       // desc: "CGPA - 9.462.",
       descBullets: [
-        "Relevant Coursework- Software Engineering, Analysis of Algorithms, Machine Learning.",
+        "Relevant Coursework- Operating Systems, Analysis of Algorithms, Machine Learning.",
       ]
     },
     {
@@ -207,6 +207,15 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Student Technican",
+      company: "Texas A&M University",
+      companylogo: require("./assets/images/tamusymbol.png"),
+      date: "Aug 2024 - Present",
+      descBullets: [
+         "Grader for CSCE 313 Introduction to Computer Systems under the Department of Computer Science and Engineering Texas A&M University",
+       ]
+    },
     {
       role: "Research Intern",
       company: "Ignitus",
@@ -1097,7 +1106,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-9869551340",
+  number: "+1-9795993461",
   email_address: "zaveridishant@gmail.com"
 };
 

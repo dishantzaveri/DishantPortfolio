@@ -146,3 +146,33 @@
     font-size: 12px;
   }
 }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .carousel-image {
+    max-width: 80%;
+    height: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    max-width: 90%;
+    height: auto; /* Image height will adjust to screen */
+  }
+}
+

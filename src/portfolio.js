@@ -207,15 +207,15 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Student Technican",
-      company: "Texas A&M University",
-      companylogo: require("./assets/images/tamusymbol.png"),
-      date: "Aug 2024 - Present",
-      descBullets: [
-         "Grader for CSCE 313 Introduction to Computer Systems under the Department of Computer Science and Engineering Texas A&M University",
-       ]
-    },
+    // {
+    //   role: "Student Technican",
+    //   company: "Texas A&M University",
+    //   companylogo: require("./assets/images/tamusymbol.png"),
+    //   date: "Aug 2024 - Present",
+    //   descBullets: [
+    //      "Grader for CSCE 313 Introduction to Computer Systems under the Department of Computer Science and Engineering Texas A&M University",
+    //    ]
+    // },
     {
       role: "Research Intern",
       company: "Ignitus",
@@ -442,12 +442,12 @@ To know how to get github key look at readme.md */
 //     },
 //     {
 //       image: require("./assets/images/springer.png"),
-//       projectName: "Insider Trading Detection using Machine Learning",
+//       projectName: "Utilizing LLM and Deep Learning Strategies to Amplify Algorithmic Proficiency in Detecting Complex Patterns of Insider Trading Fraud",
 //       projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
 //       footerLink: [
 //         {
-//           name: "Certificate",
-//           url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
+//           name: "DOI",
+//           url: "https://doi.org/10.1007/978-3-031-71388-0_17
 //         }
 //       ]
 //     },
@@ -547,12 +547,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/springer.png"),
-      projectName: "Insider Trading Detection using Machine Learning",
+      projectName: "Utilizing LLM and Deep Learning Strategies to Amplify Algorithmic Proficiency in Detecting Complex Patterns of Insider Trading Fraud",
       projectDesc: "3rd International Conference on Intelligent Vision and Computing (ICIVC 2023)",
       footerLink: [
         {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1qa1xXnwVxEfuQox94a-5hbYS0uS205Ww/view?usp=sharing"
+          name: "DOI",
+          url: "https://doi.org/10.1007/978-3-031-71388-0_17"
         }
       ]
     },

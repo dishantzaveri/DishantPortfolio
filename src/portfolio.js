@@ -144,7 +144,7 @@ const educationInfo = {
       logo: require("./assets/images/tamusymbol.png"),
       subHeader: "Master’s in Computer Science ",
       duration: "Aug 2024 – May 2026",
-      // desc: "CGPA - 9.462.",
+      desc: "CGPA - 4.0/4.0",
       descBullets: [
         "Relevant Coursework- Operating Systems, Analysis of Algorithms, Machine Learning.",
       ]
@@ -154,7 +154,7 @@ const educationInfo = {
       logo: require("./assets/images/djscamvi.png"),
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "Dec 2020 - Jun 2024",
-      desc: "CGPA - 9.5",
+      desc: "CGPA - 9.5/10",
       descBullets: [
         "Honours in Intelligent Computing.",
         "Participated and won many national and international hackathons.",

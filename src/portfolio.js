@@ -146,7 +146,8 @@ const educationInfo = {
       duration: "Aug 2024 – May 2026",
       desc: "CGPA - 4.0/4.0",
       descBullets: [
-        "Relevant Coursework- Operating Systems, Analysis of Algorithms, Machine Learning.",
+        "Relevant Coursework- Operating Systems, Analysis of Algorithms, Machine Learning, Natural Language Processing, Information Storage and Retrieval, Network Security ",
+        "Researcher at Texas A&M University under Dr. Yang Shen.",
       ]
     },
     {

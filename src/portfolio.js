@@ -25,7 +25,7 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hi, Dishant here",
   subTitle: emoji(
-    "My name is Dishant Zaveri. I am currently pursuing a Master's degree in Computer Science at Texas A&M University, with an expected graduation date of May 2026. I hold a B.Tech in Computer Science with a CGPA of 9.5/10. I have professional experience in Python, Javascript, C++. I have a deep interest in AI, ML, NLP, Data Analysis and Software Development. I have won multiple national and international hackathons and published 8 research papers. I have internship experience of 2+ years."),
+    "My name is Dishant Parag Zaveri. I am currently pursuing a Master's degree in Computer Science at Texas A&M University, with a 4.0/4.0 CGPA and an expected graduation date of May 2026. I hold a B.Tech in Computer Science with a CGPA of 9.5/10. I have professional experience in Python, Javascript, C++. I have a deep interest in AI, ML, NLP, Data Analysis and Software Development. I have won multiple national and international hackathons and published 8 research papers. I have internship experience of 2+ years."),
   resumeLink:
     "https://drive.google.com/file/d/1r0AOUpCN3gmCxFQagM6BDOtSLWXaMndq/view?usp=sharing",
   cvLink:

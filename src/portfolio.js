@@ -147,7 +147,8 @@ const educationInfo = {
       desc: "CGPA - 4.0/4.0",
       descBullets: [
         "Relevant Coursework- Operating Systems, Analysis of Algorithms, Machine Learning, Natural Language Processing, Information Storage and Retrieval, Network Security ",
-        "Researcher at Texas A&M University under Dr. Yang Shen.",
+        "Researcher at Texas A&M University under Dr. Yang Shen and Dr. Kuan-Hao Huang",
+        "Grader for CSCE 313 Introduction to Computer Systems"
       ]
     },
     {
@@ -567,7 +568,7 @@ const githubProjects = {
     {
       image: require("./assets/images/docstructure.jpg"),
       projectName: "DocStruct",
-      projectDesc: "File management system designed specifically for professionals in the construction sector.",
+      projectDesc: "File management system designed for professionals in the construction sector.",
       footerLink: [
         {
           name: "Project Link",
@@ -630,6 +631,39 @@ const githubProjects = {
         {
           name: "Project Link",
           url: "https://github.com/dishantzaveri/EnemiesOfSyntax_Datahack"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/meal.jpg"),
+      projectName: "Meal Nutrition Analysis",
+      projectDesc: "An effective solution for personalized nutrition and dietary monitoring.",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/MealNutritionAnalysis"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/schwabbot.png"),
+      projectName: "Schwab Bot AI",
+      projectDesc: "From balance sheet to cash flow, get the key indicators for the stock you know.",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/Options-Trade"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/matrix.jpeg_v03"),
+      projectName: "m-Height and Generator Matrix Optimization",
+      projectDesc: "m-Height Optimization in Analog ECCs.",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/MheightandGeneratorMatrixofAnalogCode"
         }
       ]
     },
@@ -890,6 +924,23 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1tZWgMKMazzGNNiVgFuJBghkiCuz6hwEx/view?usp=v"
+        },
+        // {
+        //   name: "Event photo",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+      ]
+    },
+    {
+      title: "Judge and Mentor at TAMU",
+      subtitle:
+        "Invited Mentor at HowdyHack & Judge at TAMUhack one of the largest annual hackathons in Texas, hosted at Texas A&M University .",
+      image: require("./assets/images/howdyhack.jpeg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://th25.tamuhack.org/"
         },
         // {
         //   name: "Event photo",

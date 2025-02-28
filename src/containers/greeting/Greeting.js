@@ -13,6 +13,7 @@ export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   const images = [
     require("../../assets/images/singaprimemini.jpg"),
+    require("../../assets/images/tamudishu.jpeg"),
     require("../../assets/images/indiaafrica.jpeg"),
     require("../../assets/images/dishantop.jpg"),
     require("../../assets/images/sih.jpg"),

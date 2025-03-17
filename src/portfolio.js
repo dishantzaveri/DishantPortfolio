@@ -234,7 +234,7 @@ const workExperiences = {
       role: "NLP Research Intern",
       company: "IIT Patna",
       companylogo: require("./assets/images/iitpatna.png"),
-      date: "Feb 2023 - Jan 2024",
+      date: "Jul 2023 - Jun 2024",
       //desc: "Scrapped and annotated peer reviews from electric venues such as ICLR, Open Review , and NIPS.",
       descBullets: [
         "Scraped and annotated peer reviews from electronic venues such as ICLR, OpenReview , and NIPS, curating our dataset of 20000+ reviews for research purposes. Performed citations in papers and got trained by an NLP expert.",
@@ -247,7 +247,7 @@ const workExperiences = {
       role: "Flutter + ML Developer",
       company: "Earnest Data Analytics Pvt Ltd",
       companylogo: require("./assets/images/earnestdata.jpeg"),
-      date: "June 2023 - Aug 2023",
+      date: "Jan 2023 - June 2023",
       //desc: "Train and optimize ML models deployed on Amazon Sagemaker and develop the BachatCards and Benefitwise apps.",
       descBullets: [
         "Devised segmentation algorithms boosting customer retention by 15% through personalized strategies.",
@@ -260,7 +260,7 @@ const workExperiences = {
       role: "Software Developer",
       company: "Jobs Territory Private Limited",
       companylogo: require("./assets/images/jobst.jpg"),
-      date: "July 2022 - Sept 2022",
+      date: "July 2022 - Dec 2022",
       //desc: "Build a Job Marketing App from scratch with optimum code.",
       descBullets: [
         "Crafted a Jobs Marketing App using React Native and conducted extensive testing with Jenkins for debugging.",
@@ -297,7 +297,7 @@ const workExperiences = {
       role: "Associate Project Manager",
       company: "Sapio Analytica Private Limited",
       companylogo: require("./assets/images/sapio.png"),
-      date: "Nov 2021 - July 2022",
+      date: "Oct 2021 - June 2022",
       //desc: "Research paper published . Associate project manager of the entire project.",
       descBullets: [
         "Published a research paper and fostered a Python model, later industrialized for practical use.",

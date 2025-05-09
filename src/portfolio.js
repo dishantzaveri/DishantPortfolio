@@ -935,8 +935,8 @@ const achievementSection = {
     },
     {
       title: "Judge and Mentor at TAMU",
-      subtitle:
-        "Invited Mentor at HowdyHack & Judge at TAMUhack one of the largest annual hackathons in Texas, hosted at Texas A&M University .",
+      // subtitle:
+      //   "Invited Mentor at HowdyHack & Judge at TAMUhack one of the largest annual hackathons in Texas, hosted at Texas A&M University .",
       image: require("./assets/images/howdyhack.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [

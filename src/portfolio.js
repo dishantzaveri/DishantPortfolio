@@ -637,7 +637,7 @@ const githubProjects = {
       ]
     },
     {
-      image: require("./assets/images/meal.jpg"),
+      image: require("./assets/images/meal.png"),
       projectName: "Meal Nutrition Analysis",
       projectDesc: "An effective solution for personalized nutrition and dietary monitoring.",
       footerLink: [

@@ -210,7 +210,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Summer Technical Associate",
+      role: "Summer Technical Associate Intern",
       company: "Jefferies LLC",
       companylogo: require("./assets/images/jefferies.jpeg"),
       date: "June 2025 - August 2025",
@@ -224,7 +224,7 @@ const workExperiences = {
       role: "Research Intern",
       company: "Ignitus",
       companylogo: require("./assets/images/ignitus.jpeg"),
-      date: "Mar 2024 - Present",
+      date: "July 2024 - May 2025",
       descBullets: [
          "Conducted advanced experimental ML research, significantly enhancing networked system functionalities across robotics and communications, positively impacting over 3 major projects.",
          "Optimized Python-based ML models for an LMS, incorporating NLP to boost content relevancy and user engagement.",

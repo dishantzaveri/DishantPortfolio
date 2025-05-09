@@ -209,15 +209,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Student Technican",
-    //   company: "Texas A&M University",
-    //   companylogo: require("./assets/images/tamusymbol.png"),
-    //   date: "Aug 2024 - Present",
-    //   descBullets: [
-    //      "Grader for CSCE 313 Introduction to Computer Systems under the Department of Computer Science and Engineering Texas A&M University",
-    //    ]
-    // },
+    {
+      role: "Summer Technical Associate",
+      company: "Jefferies LLC",
+      companylogo: require("./assets/images/jefferies.jpeg"),
+      date: "June 2025 - August 2025",
+      descBullets: [
+         "Designed backend in Java and Spring Batch to paginate over 100k+ payment executions, reducing response time by 90%",
+         "Enhanced UI using Angular, Angular Material, and migrated to AG Grid for real-time sorting, filtering, and pagination; added lazy loading, virtual scrolling, and custom cell rendering, boosting dashboard interactivity and load speed by 70%",
+         "Integrated with Oracle DB, ran 300+ Cypress tests, and deployed via CI/CD pipelines with dual-branch workflow."
+       ]
+    },
     {
       role: "Research Intern",
       company: "Ignitus",

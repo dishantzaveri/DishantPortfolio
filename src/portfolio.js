@@ -144,7 +144,7 @@ const educationInfo = {
       logo: require("./assets/images/tamusymbol.png"),
       subHeader: "Master’s in Computer Science ",
       duration: "Aug 2024 – May 2026",
-      desc: "CGPA - 4.0/4.0",
+      desc: "CGPA - 3.8/4.0",
       descBullets: [
         "Relevant Coursework- Operating Systems, Analysis of Algorithms, Machine Learning, Natural Language Processing, Information Storage and Retrieval, Network Security ",
         "Researcher at Texas A&M University under Dr. Yang Shen and Dr. Kuan-Hao Huang",

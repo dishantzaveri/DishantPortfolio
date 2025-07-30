@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 
 import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
+import Button from "../../components/button/Button"; 
 
 import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -13,6 +13,7 @@ export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   const images = [
     require("../../assets/images/singaprimemini.jpg"),
+    require("../../assets/images/djeff.jpeg"),
     require("../../assets/images/tamudishu.jpeg"),
     require("../../assets/images/indiaafrica.jpeg"),
     require("../../assets/images/dishantop.jpg"),
@@ -25,6 +26,7 @@ export default function Greeting() {
     require("../../assets/images/pentathon.jpeg"),
     require("../../assets/images/panel.jpeg"),
     require("../../assets/images/sfit.jpeg"),
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,14 +52,22 @@ export default function Greeting() {
               <p
                 className={
                   isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
+                    ? "dark-mode greeting-text-p greeting-subtitle-small"
+                    : "greeting-text-p subTitle greeting-subtitle-small"
                 }
+                style={{
+                  fontSize: "1.3rem",
+                  lineHeight: "1.4",
+                  marginBottom: "1rem"
+                }}
               >
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
+              <div
+                className="button-greeting-div"
+                style={{ marginTop: "0.5rem" }} // Decreased space between buttons and SocialMedia
+              >
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button

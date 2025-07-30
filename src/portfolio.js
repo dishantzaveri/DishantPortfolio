@@ -25,9 +25,9 @@ const greeting = {
   username: "Dishant Zaveri",
   title: "Hi, Dishant here",
   subTitle: emoji(
-    "My name is Dishant Parag Zaveri. I am currently pursuing a Master's degree in Computer Science at Texas A&M University, with a 4.0/4.0 CGPA and an expected graduation date of May 2026. I hold a B.Tech in Computer Science with a CGPA of 9.5/10. I have professional experience in Python, Javascript, C++. I have a deep interest in AI, ML, NLP, Data Analysis and Software Development. I have won multiple national and international hackathons and published 8 research papers. I have internship experience of 2+ years."),
+    "My name is Dishant Parag Zaveri. I am currently pursuing a Master's degree in Computer Science at Texas A&M University, with a 3.8/4.0 CGPA and an expected graduation date of May 2026. I hold a B.Tech in Computer Science with a CGPA of 9.5/10. I have professional experience in Python, Javascript, C++. I have a deep interest in AI, ML, NLP, Data Analysis and Software Development. I have won multiple national and international hackathons and published 8 research papers. I have internship experience of 2+ years."),
   resumeLink:
-    "https://drive.google.com/file/d/1r0AOUpCN3gmCxFQagM6BDOtSLWXaMndq/view?usp=sharing",
+    "https://drive.google.com/file/d/1k_4S7cAsv0syReMXOZIK7VOrJvZOBDzj/view?usp=sharing",
   cvLink:
     "https://drive.google.com/file/d/1v6vtZC3vDf7FflfUHiDDqyEaczJt_mn1/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -781,7 +781,7 @@ const achievementSection = {
     {
       title: "Finalist UNESCO India Africa Hackathon '22",
       subtitle:
-        "Was a part of the first ever international hackathon where Africans from different countries came to Noida, India and developed solutions on problem statements. The event was attended by Vice President of India.",
+        "Part of the first ever international hackathon where Africans from different countries came to Noida, India and developed solutions on problem statements. Attended by Vice President of India.",
       image: require("./assets/images/uia.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -795,12 +795,29 @@ const achievementSection = {
         // },
       ]
     },
+        {
+      title: "With CEO of Jefferies",
+      subtitle:
+        "Invited by Jefferies’ CEO to his penthouse, had an insightful conversation and gained valuable learnings. Also featured on Jefferies’ official LinkedIn post for the Summer 2025 internship program.",
+      image: require("./assets/images/dishantandceo.jpeg"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "Video",
+          url: "https://www.linkedin.com/posts/jefferies_jefferies-2025-summer-intern-bbq-ugcPost-7344727781668249600--q3E?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADK-kaQB06KPtOANUNmkKJY95uhzJeu85LY"
+        },
+        // {
+        //   name: "Event photo",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+      ]
+    },
 
 
     {
       title: "Top 50 - Samsung's Solve For Tomorrow '22 and '24",
       subtitle:
-        "Was a part of top 50 of Samsung India's first ever SFT which took place at IIT Delhi. The event was attended by entire Samsung's Jury",
+        '',
       image: require("./assets/images/sft.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [

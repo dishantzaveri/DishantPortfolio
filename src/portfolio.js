@@ -209,6 +209,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+        {
+      role: "Teaching Assistant and Graduate Researcher",
+      company: "Texas A&M University",
+      companylogo: require("./assets/images/tamusymbol.png"),
+      date: "August 2025- Present",
+      descBullets: [
+         "TA and Grader for CSCE 313 - Introduction to Computer Systems",
+         "Researcher under Dr. Yang Shen and Dr. Kuan-Hao Huang (Flair Lab).",
+         "Under the guidance of Department of Computer Science at Texas A&M University, my research focuses on utilizing advanced machine learning (ML) and artificial intelligence (AI) techniques, particularly large language models (LLMs), for protein sequence and structure generation with functional specificity. "
+       ]
+    },
     {
       role: "Summer Technical Associate Intern",
       company: "Jefferies LLC",
@@ -680,6 +691,30 @@ const githubProjects = {
         }
       ]
     },
+            {
+      image: require("./assets/images/cloudflare.png"),
+      projectName: "AI Agent",
+      projectDesc: "Full-stack AI-powered application entirely on Cloudflare’s developer platform.",
+      footerLink: [
+        {
+          name: "Project Link",
+          url: "https://github.com/dishantzaveri/cf_ai_agent"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mmlm.png"),
+      projectName: "MMLLM-LongContext",
+      projectDesc: "Efficient Long-Context Reasoning in Multimodal LLMs.",
+      footerLink: [
+        {
+          name: "Project Link", 
+          url: "https://github.com/dishantzaveri/nlpgroupproject"
+        }
+      ]
+    },
+
+
     {
       image: require("./assets/images/sambharat.png"),
       projectName: "Samriddh Bharat",
